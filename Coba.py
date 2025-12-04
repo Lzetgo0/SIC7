@@ -48,7 +48,7 @@ st.markdown("""
 
 # ==== TITLE ====
 st.markdown('<p class="title-text">🌡 IoT Machine Learning Dashboard</p>', unsafe_allow_html=True)
-st.markdown('<p class="subtitle-text">Dashboard Premium • Real-Time Monitoring with MQTT + AI</p>', unsafe_allow_html=True)
+st.markdown('<p class="subtitle-text">Real-Time Monitoring with MQTT + AI</p>', unsafe_allow_html=True)
 
 
 # ==== DATAFRAME ====
