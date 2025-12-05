@@ -5,9 +5,9 @@ import pandas as pd
 import joblib
 from datetime import datetime
 
-BROKER = "broker.hivemq.com"
-TOPIC_SUB = "iot/sensor/data"
-TOPIC_PUB = "iot/output"
+BROKER = "broker.emqx.io"
+TOPIC_SUB = "iot/so/cool/sensor"
+TOPIC_PUB = "iot/so/cool/output"
 MODEL_PATH = "iot_temp_model.pkl"
 
 model = joblib.load(MODEL_PATH)
